@@ -1,0 +1,40 @@
+body {
+  padding: 8%;
+  text-align: center;
+}
+
+.input_area {
+  h2 {
+    margin-bottom: 20px;
+  }
+  input {
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  padding: 20px;
+  background-color: rgba(49, 174, 174, 0.473);
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.incomplete_area,
+.complete_area {
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: rgba(48, 189, 81, 0.622);
+  border-radius: 10px;
+  li {
+    margin: 0 auto;
+    font-size: 20px;
+    span {
+      margin-right: 10px;
+    }
+  }
+}
+.complete_area{
+  background-color: rgba(244, 255, 127, 0.836);
+}
